@@ -1,0 +1,7 @@
+services:
+
+  hello-java:
+    build: .
+    container_name: hello-java
+    ports:
+      - "8080:8080"
